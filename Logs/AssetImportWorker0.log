@@ -1,0 +1,848 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.8f1 (b5eafc012955) revision 11922172'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Education' Language: 'en' Physical Memory: 32559 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/alounsbury/Documents/GMD300_prototype02
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52080
+Successfully changed project path to: C:/Users/alounsbury/Documents/GMD300_prototype02
+C:/Users/alounsbury/Documents/GMD300_prototype02
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23304] Host "[IP] 172.20.1.94 [Port] 0 [Flags] 2 [Guid] 2582215135 [EditorId] 2582215135 [Version] 1048832 [Id] WindowsEditor(7,201-2-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23304] Host "[IP] 172.20.1.94 [Port] 0 [Flags] 2 [Guid] 2582215135 [EditorId] 2582215135 [Version] 1048832 [Id] WindowsEditor(7,201-2-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.8f1 (b5eafc012955)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/alounsbury/Documents/GMD300_prototype02/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3619
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003841 seconds.
+- Loaded All Assemblies, in  0.214 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.156 seconds
+Domain Reload Profiling: 369ms
+	BeginReloadAssembly (66ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (65ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (76ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (120ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (79ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.615 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.413 seconds
+Domain Reload Profiling: 1026ms
+	BeginReloadAssembly (110ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (450ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (413ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (244ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3988 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (169.3 KB). Loaded Objects now: 4451.
+Memory consumption went from 143.0 MB to 142.8 MB.
+Total: 3.060900 ms (FindLiveObjects: 0.208400 ms CreateObjectMapping: 0.103600 ms MarkObjects: 2.624700 ms  DeleteObjects: 0.123100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17173.240662 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf86dcfb69485b03a1b5d4969b5f3519') in 0.017618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 29.902212 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5c9283650498b94e52855eff3ec299') in 0.026262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 6.621710 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb43461c0baff359cc7feca4f43b567') in 0.002195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.813719 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c300d2feaf2f1455a0733140ac6445d') in 0.001918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.221354 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5a2d383d3d54870638571e48189c6c') in 0.001916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 54.206940 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dede4c67ac1d7e808b6419a2c11eecb4') in 0.001678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 6.663879 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7898e5b726eb3c768a3cc250c8be089') in 0.001568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 18.358269 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da9b847a8ed0062fdc6d6290f3a16ff') in 0.002371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 20.343271 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ca7d09a6c829aa1aca5b19374d3180') in 0.001874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.036860 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa4ab5570bf7f00fac430cbd50b314c') in 0.001875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 4.026471 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fd72ba6b788e76d43840bb69829bc5') in 0.001674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 5.239243 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0565c9066b163a24c39485139e67537') in 0.001715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.207789 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb07d0716c53d85d652c1ffaf93d1b60') in 0.001711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 9.473109 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a1f2074da8e00a933c66a41c9de756') in 0.001663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.794750 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d96c4c09b9213d0f42128dfee7a158') in 0.001579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 2.620414 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ac0faf2ef41457171246aed4998448') in 0.002352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 16.909101 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcc0e90055e56822da102e88d0612ac') in 0.002303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 4.019302 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd320f0c79ec120436db9e8b2d27ade99') in 0.001935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 4.233740 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c6a676d6eaf1ff1e908b4e87fdf812') in 0.001915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 6.038010 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d0126c3a7c410b494843a8f8878e9a') in 0.002130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.401134 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36807ec1c00a3127ae0ff3909ab380ed') in 0.003162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 102.479162 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2d617f0cb8d0b008c8b7f6c07eb87f') in 0.002021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 36.477184 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2038ff2e2791261cb4cfe58c90ced89d') in 0.001955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 7.240028 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e920042af5dde78cc7e9daad2fe520eb') in 0.003033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 16.312812 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5a8e80965b8343977a4ac1fa7e89fd') in 0.002265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 23.924594 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5faee02f19d8d58aabf40fbfcad537a') in 0.002106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 4.624845 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e67cdd23600192831bcb758842ac02') in 0.002389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 3.821951 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd849c85a11f7cb61b9af01cb98b555c') in 0.002051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 7.840538 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c36ce363fab2b844f62ca2d76849cc') in 0.002054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.603874 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5136159917e92c95be72d1bfe6104cd') in 0.002058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.400886 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a70d2c461c1bc7dc6378f52ae31e8e4') in 0.002227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 8.845849 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a2752e6c9a1464db6f6d6656a06e3f') in 0.001900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 3.415956 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1188d1746bd21a6e15471d551d8321cb') in 0.002600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 29.554829 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c800fb7e1f9e7e479171bcda5976b1') in 0.002065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 5.027840 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0464b31b4bda103fe850f4c5be183b67') in 0.002132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 3.221863 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cddaebb6b09d9176b667eaa17ba959') in 0.001864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 2.412443 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128fb13bec24e17538e7d468d3c1bbe5') in 0.002195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 3.415365 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da2618d71033bbbc3c8327b06b30a42') in 0.001906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 2.836298 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b5bbe0802a34f350a8e0f8bc860549') in 0.001880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 1.802215 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced913e366106e5b20752cd60d2f4ba2') in 0.001885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 4.028446 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524a87b78cc0c8e4df838de1afb5f68f') in 0.002984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 175.641220 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a083e81d4c8401d348eeefea2b9868') in 0.002991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 15.700213 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fc64c049a640c739d6b7d7215a9303') in 0.002660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 6.248616 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281f07e15d74a45d4e6ff518fefd195e') in 0.002229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 3.207622 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2db5114ad782afc8fb2ca1cfde6755') in 0.002127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 10.476256 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce89aba3cb264c6cbc34715e70ae811') in 0.002805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 1.017102 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac40c4a8fcc6c1da271374612b6dd289') in 0.002052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 3.217301 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e143cc3973cd01096132f4be79d449c') in 0.002144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 16.411316 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73a1a04eef5a03cbe69f99277442bd3') in 0.006592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 5.616183 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026435cbed15683aa30ac9600e331d5f') in 0.004959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 5.224753 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fd08e663249e17c535d439b88db92c') in 0.005274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 3.219664 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c4f751ae91304b0b21bfa8e874f4b1') in 0.005117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 17.337010 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03d82154b9304cb29a446ae3ce20056') in 0.005298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 2.616788 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4e34700d650132350361ea4e2373d9') in 0.004518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 3.232622 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6c521607dd0310413b595cd38399e7') in 0.005745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 8.240501 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464a60a7250d89981126ffa7a043818c') in 0.005966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 8.456715 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c50121311d94ab2494e62955460fa3') in 0.004433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 10.063595 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657d6a4af0fd4555039b2f0f60ba90e9') in 0.005987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 6.253862 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6c17462ee033c40248468d5d464f3e') in 0.004608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 38.287703 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc1daca44a2bbdba2d5cf57620addaf') in 0.006211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 9.054907 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfb465c011b82d32c8d64474e2ef4f1') in 0.006615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 5.224689 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d63f00e8b456733fce36f202cb05e6') in 0.005275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 174.034485 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd597d5d1556742a645286aed67a5db') in 0.006716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 55.431117 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b712d38bb3e0f3b3c9d9e288c8003743') in 0.008901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.241137 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f42fbec8ff52137aeaa1d7ca8ecb688') in 0.009963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 3.790836 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38b0fe3ec037b400e79d3b0a05203c56') in 0.010673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 5.639253 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29897a6d5a7e928abf2c27c1a1565c54') in 0.008019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 1.993903 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12c81ed01f2a3cbbf9f10bb6d6daade') in 0.008451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 3.007021 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e872cd4125a23a7f8a125f12f147ccc8') in 0.008668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 1.607279 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf6bc5e938c4d2e6a8f8688e5030872') in 0.007480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 3.019690 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0076239642d8b81f7731b5612af1f074') in 0.008398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 1.806171 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0549fd4e10606cbf558f4aded14b0f3') in 0.009527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 1.409242 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465ffd4b721a0d10506cacc490e001df') in 0.008023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 19.941116 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8019c28f772b181b9bca3d38db2073b1') in 0.007464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 12.102249 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c91b404f985c84ce43a445855f3a32') in 0.009718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 2.407681 seconds.
+  path: Assets/Prefabs/Sword.prefab
+  artifactKey: Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Sword.prefab using Guid(5e35be4f9019d02469b3be384b2e190f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd97b27d9e58807a1db0f68ad7afec06') in 0.010199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 19.737541 seconds.
+  path: Assets/Materials/Blade.mat
+  artifactKey: Guid(70d9881e1098832429191c8188ff9127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blade.mat using Guid(70d9881e1098832429191c8188ff9127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbf8c6f5af23234d66350a94beafb8c') in 0.057017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 67.650121 seconds.
+  path: Assets/Materials/SwordGem.mat
+  artifactKey: Guid(8bbde80304a0f3746afc10d845dfe894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SwordGem.mat using Guid(8bbde80304a0f3746afc10d845dfe894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b882ed18f22abcd94e3caa5a7cd6d0e') in 0.005886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 95.718874 seconds.
+  path: Assets/Materials/SwordWood.mat
+  artifactKey: Guid(73e4b08eb35d2ee42a0ec27aae6123b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SwordWood.mat using Guid(73e4b08eb35d2ee42a0ec27aae6123b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f377301799e4855a83932f6d67640a30') in 0.005148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.142966 seconds.
+  path: Assets/Materials/Blade.mat
+  artifactKey: Guid(70d9881e1098832429191c8188ff9127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blade.mat using Guid(70d9881e1098832429191c8188ff9127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9b3639919a4275fd8c11f1c6bb303c') in 0.018400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/SwordWood.mat
+  artifactKey: Guid(73e4b08eb35d2ee42a0ec27aae6123b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SwordWood.mat using Guid(73e4b08eb35d2ee42a0ec27aae6123b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2aa6b8878e1284b98ec394bd5d25b9') in 0.013860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 43.144531 seconds.
+  path: Assets/Materials/Armor.mat
+  artifactKey: Guid(0af4201e4f5a6b24292c0dd16948e2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Armor.mat using Guid(0af4201e4f5a6b24292c0dd16948e2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5852ae0b8dec677ed8bdbdb89cbf70d4') in 0.007587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1182.215490 seconds.
+  path: Assets/Materials/Armor.mat
+  artifactKey: Guid(0af4201e4f5a6b24292c0dd16948e2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Armor.mat using Guid(0af4201e4f5a6b24292c0dd16948e2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974b4cc6df4049c5681aeb788ce48677') in 0.014311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
