@@ -12,8 +12,11 @@ public class ThirdPersonController : MonoBehaviour
     public float JumpMaxTime = 0.5f;
     public Camera PlayerCamera;
 
+    [SerializeField] private SwordAnimation SwordAnimation;
+    [SerializeField] private bool Attack1;
+    [SerializeField] private bool Attack2;
+    [SerializeField] private bool Attack3; 
     private float JumpTimer = 0; 
-
     private CharacterController characterController;
     private bool jumpInputPressed = false;
     private bool isJumping = false; 
@@ -28,6 +31,10 @@ public class ThirdPersonController : MonoBehaviour
 
     private void Update()
     {
+        Attack1 = SwordAnimation.GetComponent<Animator>().GetBool("Attack1");
+        Attack2 = SwordAnimation.GetComponent<Animator>().GetBool("Attack2");
+        Attack3 = SwordAnimation.GetComponent<Animator>().GetBool("Attack3");
+
         Vector3 cameraSpaceMovement = new Vector3(moveInput.x, 0, moveInput.y); 
         cameraSpaceMovement = PlayerCamera.transform.TransformDirection(cameraSpaceMovement);
         
@@ -68,9 +75,14 @@ public class ThirdPersonController : MonoBehaviour
 
     public void OnMove(InputValue value)
     {
-
+        SwordAnimation.WalkAnim(true); 
         
         moveInput = value.Get<Vector2>();
+
+        if (moveInput == new Vector2(0, 0) ) 
+        {
+            SwordAnimation.WalkAnim(false); 
+        }
     }
 
     public void OnJump(InputValue value)
@@ -97,14 +109,24 @@ public class ThirdPersonController : MonoBehaviour
 
     public void OnAttack(InputValue value)
     {
-        Collider[] overlapItems = Physics.OverlapBox(transform.position, Vector3.one);
-        
-        if (overlapItems.Length > 0)
+        if(value.Get<float>() > 0) 
         {
-            foreach (Collider item in overlapItems)
+            SwordAnimation.AttackAnim1(true);
+            if(Attack1 && value.Get<float>() > 0)
             {
-                Vector3 direction = item.transform.position - transform.position;
-                item.SendMessage("OnPlayerAttack", direction, SendMessageOptions.DontRequireReceiver); 
+                SwordAnimation.AttackAnim2(true);
+                SwordAnimation.AttackAnim1(false);
+
+                if (Attack2 && value.Get<float>() > 0)
+                {
+                    SwordAnimation.AttackAnim3(true);
+                    SwordAnimation.AttackAnim2(false);
+
+                    if (Attack2 && value.Get<float>() > 0)
+                    {
+                        SwordAnimation.AttackAnim3(false);
+                    }
+                }
             }
         }
     }
