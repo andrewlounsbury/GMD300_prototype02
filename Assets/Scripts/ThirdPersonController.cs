@@ -10,6 +10,7 @@ public class ThirdPersonController : MonoBehaviour
     public float MoveAcceleration = 10;
     public float JumpSpeed = 5;
     public float JumpMaxTime = 0.5f;
+    public bool canControl = true; 
     public Camera PlayerCamera;
 
     [SerializeField] private SwordAnimation SwordAnimation;
@@ -31,46 +32,52 @@ public class ThirdPersonController : MonoBehaviour
 
     private void Update()
     {
-        Attack1 = SwordAnimation.GetComponent<Animator>().GetBool("Attack1");
-        Attack2 = SwordAnimation.GetComponent<Animator>().GetBool("Attack2");
-        Attack3 = SwordAnimation.GetComponent<Animator>().GetBool("Attack3");
+        if (canControl)
+        {
+            Attack1 = SwordAnimation.GetComponent<Animator>().GetBool("Attack1");
+            Attack2 = SwordAnimation.GetComponent<Animator>().GetBool("Attack2");
+            Attack3 = SwordAnimation.GetComponent<Animator>().GetBool("Attack3");
 
-        Vector3 cameraSpaceMovement = new Vector3(moveInput.x, 0, moveInput.y); 
-        cameraSpaceMovement = PlayerCamera.transform.TransformDirection(cameraSpaceMovement);
+            Vector3 cameraSpaceMovement = new Vector3(moveInput.x, 0, moveInput.y);
+            cameraSpaceMovement = PlayerCamera.transform.TransformDirection(cameraSpaceMovement);
+
+            Vector2 cameraHorizontalMovmement = new Vector2(cameraSpaceMovement.x, cameraSpaceMovement.z);
+
+            currentHorizontalVelocity = Vector2.Lerp(currentHorizontalVelocity, cameraHorizontalMovmement * MaxMoveSpeed, Time.deltaTime * MoveAcceleration);
+
+
+
+            if (isJumping == false)
+            {
+                currentVerticalVelocity += Physics.gravity.y * Time.deltaTime;
+
+                if (characterController.isGrounded && currentVerticalVelocity < 0)
+                {
+                    currentVerticalVelocity = Physics.gravity.y * Time.deltaTime;
+                }
+            }
+            else
+            {
+                JumpTimer += Time.deltaTime;
+
+                if (JumpTimer >= JumpMaxTime)
+                {
+                    isJumping = false;
+                }
+            }
+            Vector3 currentVelocity = new Vector3(currentHorizontalVelocity.x, currentVerticalVelocity, currentHorizontalVelocity.y);
+
+            Vector3 horizontalDirection = Vector3.Scale(currentVelocity, new Vector3(1, 0, 1));
+
+            if (horizontalDirection.magnitude > 0.0001)
+            {
+                Quaternion newDirection = Quaternion.LookRotation(horizontalDirection.normalized);
+                transform.rotation = Quaternion.Slerp(transform.rotation, newDirection, Time.deltaTime * MoveAcceleration);
+            }
+
+            characterController.Move(currentVelocity * Time.deltaTime);
+        }
         
-        Vector2 cameraHorizontalMovmement = new Vector2(cameraSpaceMovement.x, cameraSpaceMovement.z);
-
-        currentHorizontalVelocity = Vector2.Lerp(currentHorizontalVelocity, cameraHorizontalMovmement * MaxMoveSpeed, Time.deltaTime * MoveAcceleration); 
-
-        if (isJumping == false)
-        {
-            currentVerticalVelocity += Physics.gravity.y * Time.deltaTime; 
-
-            if(characterController.isGrounded && currentVerticalVelocity < 0)
-            {
-                currentVerticalVelocity = Physics.gravity.y * Time.deltaTime;
-            }
-        }
-        else
-        {
-            JumpTimer += Time.deltaTime;
-
-            if (JumpTimer >= JumpMaxTime)
-            {
-                isJumping = false; 
-            }
-        }
-        Vector3 currentVelocity = new Vector3(currentHorizontalVelocity.x, currentVerticalVelocity, currentHorizontalVelocity.y);
-
-        Vector3 horizontalDirection = Vector3.Scale(currentVelocity,  new Vector3(1, 0, 1));
-
-        if (horizontalDirection.magnitude > 0.0001) 
-        {
-            Quaternion newDirection = Quaternion.LookRotation(horizontalDirection.normalized);
-            transform.rotation = Quaternion.Slerp(transform.rotation, newDirection, Time.deltaTime * MoveAcceleration); 
-        }
-
-        characterController.Move(currentVelocity * Time.deltaTime); 
     }
 
     public void OnMove(InputValue value)
