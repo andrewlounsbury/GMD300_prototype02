@@ -320,9 +320,12 @@
 "Assets/Scripts/Hittable.cs"
 "Assets/Scripts/MoveToDestination.cs"
 "Assets/Scripts/PlayerHealthSystem.cs"
+"Assets/Scripts/QuitGame.cs"
+"Assets/Scripts/SceneSwitcher.cs"
 "Assets/Scripts/SwordAnimation.cs"
 "Assets/Scripts/SwordDamage.cs"
 "Assets/Scripts/ThirdPersonController.cs"
+"Assets/Scripts/WaveSpawner.cs"
 -langversion:9.0
 
 /deterministic
