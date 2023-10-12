@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CinemticTrigger
     - EnemyHealth
+    - MoveToDestination
     - PlayerHealthSystem
     - SwordAnimation
     - SwordDamage
@@ -18,6 +19,11 @@ ScriptsOnlyBuild:
     - Cinemachine.CinemachineVirtualCamera
     - CinemachineShot
     - CinemachineTrack
+    Unity.AI.Navigation.Editor.dll:
+    - Unity.AI.Navigation.Editor.NavigationWindow
+    Unity.AI.Navigation.dll:
+    - Unity.AI.Navigation.NavMeshModifierVolume
+    - Unity.AI.Navigation.NavMeshSurface
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputSettings
@@ -25,12 +31,7 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.PlayerInput
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     Unity.ProBuilder.Editor.dll:
-    - UnityEditor.ProBuilder.PositionToolContext
     - UnityEditor.ProBuilder.ProBuilderEditor
-    - UnityEditor.ProBuilder.ProbuilderMoveTool
-    - UnityEditor.ProBuilder.ProbuilderRotateTool
-    - UnityEditor.ProBuilder.ProbuilderScaleTool
-    - UnityEditor.ProBuilder.TooltipEditor
     Unity.ProBuilder.dll:
     - UnityEngine.ProBuilder.ProBuilderMesh
     - UnityEngine.ProBuilder.Shapes.ProBuilderShape
@@ -38,9 +39,7 @@ ScriptsOnlyBuild:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.Timeline.Editor.dll:
     - TimelinePreferences
-    - UnityEditor.Timeline.EditorClip
     - UnityEditor.Timeline.SequenceHierarchy
-    - UnityEditor.Timeline.TimelineAssetViewModel
     - UnityEditor.Timeline.TimelineWindow
     Unity.Timeline.dll:
     - UnityEngine.Timeline.ActivationPlayableAsset
@@ -50,10 +49,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -133,54 +130,66 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1620}
     - Class: 114
-      Script: {instanceID: 1820}
+      Script: {instanceID: 1824}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2792}
     - Class: 114
-      Script: {instanceID: 2870}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 2926}
+      Script: {instanceID: 2942}
     - Class: 114
-      Script: {instanceID: 3228}
+      Script: {instanceID: 3248}
     - Class: 114
-      Script: {instanceID: 3328}
+      Script: {instanceID: 3348}
     - Class: 114
-      Script: {instanceID: 3612}
+      Script: {instanceID: 3636}
     - Class: 114
-      Script: {instanceID: 3666}
+      Script: {instanceID: 3690}
     - Class: 114
-      Script: {instanceID: 4006}
+      Script: {instanceID: 4032}
     - Class: 114
-      Script: {instanceID: 4200}
+      Script: {instanceID: 4228}
     - Class: 114
-      Script: {instanceID: 4218}
+      Script: {instanceID: 4246}
     - Class: 114
-      Script: {instanceID: 4234}
+      Script: {instanceID: 4262}
     - Class: 114
-      Script: {instanceID: 5442}
+      Script: {instanceID: 5480}
     - Class: 114
-      Script: {instanceID: 5458}
+      Script: {instanceID: 5496}
     - Class: 114
-      Script: {instanceID: 5884}
+      Script: {instanceID: 5930}
     - Class: 114
-      Script: {instanceID: 6424}
+      Script: {instanceID: 5972}
     - Class: 114
-      Script: {instanceID: 6558}
+      Script: {instanceID: 6170}
     - Class: 114
-      Script: {instanceID: 7074}
+      Script: {instanceID: 6494}
     - Class: 114
-      Script: {instanceID: 8144}
+      Script: {instanceID: 6630}
     - Class: 114
-      Script: {instanceID: 8312}
+      Script: {instanceID: 7150}
     - Class: 114
-      Script: {instanceID: 25794}
+      Script: {instanceID: 7830}
+    - Class: 114
+      Script: {instanceID: 8234}
+    - Class: 114
+      Script: {instanceID: 8274}
+    - Class: 114
+      Script: {instanceID: 8404}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 238
       Script: {instanceID: 0}
     - Class: 320
       Script: {instanceID: 0}
@@ -885,6 +894,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 486b8c32d49edb18f6ab2914360d8499
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AgentPatrol
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -931,6 +946,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine
     namespaceName: Cinemachine
     className: CinemachineBlendListCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 3a09ae0a4d0e75b36abda223b76ab1ea
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshLink
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1047,16 +1068,28 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Unity.VisualScripting.Core
-    namespaceName: Unity.VisualScripting
-    className: UnityOnBecameInvisibleMessageListener
+      Hash: 15146d050d6483434f5274d48058398e
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshModifierVolume
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f701137b5fe9552c6bf7c218e1d6c0d5
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshSurface
   - hash:
       serializedVersion: 2
       Hash: d6f83bb917df45d91ae1716a0b084fa3
@@ -1215,6 +1248,12 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: aa3abe62679eed605debfa89a32fd294
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
       Hash: 08c6cec0d60845d71fc5e6a25f88c52f
     assemblyName: Cinemachine
     namespaceName: Cinemachine
@@ -1303,6 +1342,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 68848199d81771f2e136e277155a6b3c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CinemticTrigger
   - hash:
       serializedVersion: 2
       Hash: 41ac98c9880a6f3758ca69dbaa1e7777
@@ -1411,6 +1456,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4bf8a383492c3d24e9e4c2bda2ee8e32
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MoveToDestination
   - hash:
       serializedVersion: 2
       Hash: 21458b64fdf3b1c35574c2a0e82b859d
@@ -1573,12 +1624,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 68848199d81771f2e136e277155a6b3c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CinemticTrigger
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

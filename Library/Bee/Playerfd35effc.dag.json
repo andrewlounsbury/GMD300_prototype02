@@ -290,29 +290,17 @@
       "DebugActionIndex": 11
     },
     {
-      "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/sharedassets0.assets.resS",
-      "DisplayName": "Copying sharedassets0.assets.resS",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS"
-      ],
-      "Outputs": [
-        "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/sharedassets0.assets.resS"
-      ],
-      "DebugActionIndex": 12
-    },
-    {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 16426,
+      "PayloadLength": 16473,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/boot.config_tyr4.info"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 12
     },
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
@@ -332,7 +320,6 @@
         "Library/PlayerDataCache/Win64/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json",
         "Library/PlayerDataCache/Win64/Data/sharedassets0.assets",
-        "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS",
         "C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
@@ -402,6 +389,7 @@
         "C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
         "C:/Users/alounsbury/Documents/GMD300_prototype02/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "C:/Users/alounsbury/Documents/GMD300_prototype02/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll",
         "C:/Users/alounsbury/Documents/GMD300_prototype02/Library/Bee/PlayerScriptAssemblies/Unity.ProBuilder.Stl.dll",
         "C:/Users/alounsbury/Documents/GMD300_prototype02/Library/Bee/PlayerScriptAssemblies/Unity.ProBuilder.dll",
         "C:/Users/alounsbury/Documents/GMD300_prototype02/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
@@ -479,12 +467,12 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/boot.config"
       ],
       "ToBuildDependencies": [
-        13
+        12
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/boot.config",
@@ -497,9 +485,9 @@
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/boot.config"
       ],
       "ToBuildDependencies": [
-        14
+        13
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.AIModule.dll",
@@ -511,7 +499,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ARModule.dll",
@@ -523,7 +511,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -535,7 +523,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -547,7 +535,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -559,7 +547,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -571,7 +559,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.AudioModule.dll",
@@ -583,7 +571,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ClothModule.dll",
@@ -595,7 +583,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -607,7 +595,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -619,7 +607,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -631,7 +619,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ContentLoadModule.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.CoreModule.dll",
@@ -643,7 +631,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -655,7 +643,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -667,7 +655,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -679,7 +667,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.GIModule.dll",
@@ -691,7 +679,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -703,7 +691,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.GridModule.dll",
@@ -715,7 +703,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -727,7 +715,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -739,7 +727,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -751,7 +739,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -763,7 +751,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.InputModule.dll",
@@ -775,7 +763,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -787,7 +775,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -799,7 +787,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -811,7 +799,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -823,7 +811,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -835,7 +823,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -847,7 +835,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -859,7 +847,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -871,7 +859,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -883,7 +871,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.PropertiesModule.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -895,7 +883,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -907,7 +895,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -919,7 +907,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -931,7 +919,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -943,7 +931,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -955,7 +943,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -967,7 +955,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -979,7 +967,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TLSModule.dll",
@@ -991,7 +979,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1003,7 +991,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1015,7 +1003,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1027,7 +1015,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1039,7 +1027,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1051,7 +1039,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1063,7 +1051,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1075,7 +1063,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UIModule.dll",
@@ -1087,7 +1075,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1099,7 +1087,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1111,7 +1099,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1123,7 +1111,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1135,7 +1123,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1147,7 +1135,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1159,7 +1147,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1171,7 +1159,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1183,7 +1171,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1195,7 +1183,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1207,7 +1195,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1219,7 +1207,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1231,7 +1219,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.VRModule.dll",
@@ -1243,7 +1231,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1255,7 +1243,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1267,7 +1255,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1279,7 +1267,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.WindModule.dll",
@@ -1291,7 +1279,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.XRModule.dll",
@@ -1303,7 +1291,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.dll",
@@ -1315,7 +1303,7 @@
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/Assembly-CSharp.dll",
@@ -1326,6 +1314,18 @@
       ],
       "Outputs": [
         "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/Assembly-CSharp.dll"
+      ],
+      "DebugActionIndex": 83
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/Unity.AI.Navigation.dll",
+      "DisplayName": "Copying Unity.AI.Navigation.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/alounsbury/Documents/GMD300_prototype02/Library/Bee/PlayerScriptAssemblies/Unity.AI.Navigation.dll"
+      ],
+      "Outputs": [
+        "C:/Users/alounsbury/Documents/CheckIn1_Proto2_Build/Prototype02_Data/Managed/Unity.AI.Navigation.dll"
       ],
       "DebugActionIndex": 84
     },
@@ -1765,7 +1765,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 16598,
+      "PayloadOffset": 16645,
       "PayloadLength": 26,
       "PayloadDebugContentSnippet": "DefaultCompany\nPrototype02",
       "Inputs": [],
@@ -2094,7 +2094,7 @@
         9,
         10,
         11,
-        12,
+        14,
         15,
         16,
         17,
