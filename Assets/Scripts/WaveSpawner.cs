@@ -25,6 +25,7 @@ public class WaveSpawner : MonoBehaviour
             if(enemy == null)
             {
                 enemiesKilled++;
+                Debug.Log(enemiesKilled); 
             }
         }
 
