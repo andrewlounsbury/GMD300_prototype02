@@ -4,11 +4,26 @@ using UnityEngine;
 
 public class SwordAnimation : MonoBehaviour
 {
-    private Animator animator; 
+    private Animator animator;
+
+    private float currentAttackCombo = 0;
+    private float maxAttackCombo = 3;
+
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        Debug.Log(currentAttackCombo);
+
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("AttackDone"))
+        {
+            currentAttackCombo = 0;
+            animator.SetFloat("AttackCombo", currentAttackCombo);
+        }
     }
 
     public void WalkAnim(bool IsWalking)
@@ -44,6 +59,13 @@ public class SwordAnimation : MonoBehaviour
     public void AttackEnd3()
     {
         animator.SetBool("Attack3", false);
+    }
+
+    public void TriggerAttackCombo()
+    {
+        currentAttackCombo = Mathf.Clamp(currentAttackCombo + 1, 0, maxAttackCombo);
+
+        animator.SetFloat("AttackCombo", currentAttackCombo);
     }
 
 }

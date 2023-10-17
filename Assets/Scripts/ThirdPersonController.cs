@@ -25,6 +25,9 @@ public class ThirdPersonController : MonoBehaviour
     private Vector2 currentHorizontalVelocity = Vector2.zero; 
     private float currentVerticalVelocity = 0;
 
+    private float currentAttackCombo = 0;
+    private float maxAttackCombo = 3;
+
     private void Awake()
     {
         characterController = GetComponent<CharacterController>();
@@ -34,9 +37,9 @@ public class ThirdPersonController : MonoBehaviour
     {
         if (canControl)
         {
-            Attack1 = SwordAnimation.GetComponent<Animator>().GetBool("Attack1");
+            /*Attack1 = SwordAnimation.GetComponent<Animator>().GetBool("Attack1");
             Attack2 = SwordAnimation.GetComponent<Animator>().GetBool("Attack2");
-            Attack3 = SwordAnimation.GetComponent<Animator>().GetBool("Attack3");
+            Attack3 = SwordAnimation.GetComponent<Animator>().GetBool("Attack3");*/
 
             Vector3 cameraSpaceMovement = new Vector3(moveInput.x, 0, moveInput.y);
             cameraSpaceMovement = PlayerCamera.transform.TransformDirection(cameraSpaceMovement);
@@ -116,8 +119,9 @@ public class ThirdPersonController : MonoBehaviour
 
     public void OnAttack(InputValue value)
     {
-        if(value.Get<float>() > 0) 
+        /*if(value.Get<float>() > 0) 
         {
+
             SwordAnimation.AttackAnim1(true);
             if(Attack1 && value.Get<float>() > 0)
             {
@@ -135,7 +139,9 @@ public class ThirdPersonController : MonoBehaviour
                     }
                 }
             }
-        }
+        }*/
+
+        SwordAnimation.TriggerAttackCombo();
     }
 
 }

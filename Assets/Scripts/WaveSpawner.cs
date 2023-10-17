@@ -25,9 +25,9 @@ public class WaveSpawner : MonoBehaviour
             if(enemy == null)
             {
                 enemiesKilled++;
+                Debug.Log(enemiesKilled); 
             }
         }
-        Debug.Log(enemiesKilled);
 
         if (countdown <= 0f && waveNumber < TotalWaves)
         {
