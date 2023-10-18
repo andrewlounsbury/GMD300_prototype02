@@ -72,6 +72,7 @@
     <Compile Include="Assets\Scripts\AgentPatrol.cs" />
     <Compile Include="Assets\Scripts\ProBuilderRepairDefaultMaterialForHDRP.cs" />
     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
