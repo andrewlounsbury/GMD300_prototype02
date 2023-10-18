@@ -19,13 +19,8 @@ MonoBehaviour:
     width: 1920
     height: 1109
   m_ShowMode: 4
-<<<<<<< HEAD
-  m_Title: Hierarchy
-  m_RootView: {fileID: 5}
-=======
   m_Title: Scene
   m_RootView: {fileID: 9}
->>>>>>> HDRP_Workshop
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
@@ -309,38 +304,8 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-<<<<<<< HEAD
-  controlID: 155
---- !u!114 &9
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 11}
-  m_Position:
-    serializedVersion: 2
-    x: 200
-    y: 0
-    width: 1313
-    height: 1059
-  m_MinSize: {x: 200, y: 100}
-  m_MaxSize: {x: 16192, y: 16192}
-  vertical: 1
-  controlID: 89
---- !u!114 &10
-=======
   controlID: 74
 --- !u!114 &13
->>>>>>> HDRP_Workshop
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -364,43 +329,8 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-<<<<<<< HEAD
-  controlID: 90
---- !u!114 &11
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 659
-    width: 1313
-    height: 400
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 22}
-  m_Panes:
-  - {fileID: 21}
-  - {fileID: 22}
-  - {fileID: 16}
-  - {fileID: 14}
-  - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &12
-=======
   controlID: 75
 --- !u!114 &14
->>>>>>> HDRP_Workshop
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -609,13 +539,8 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-<<<<<<< HEAD
-  m_LastSelectedObjectID: -2786
---- !u!114 &17
-=======
   m_LastSelectedObjectID: 31884
 --- !u!114 &20
->>>>>>> HDRP_Workshop
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -778,17 +703,10 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
-      width: 957
-      height: 617
-    m_Scale: {x: 0.4984375, y: 0.49843746}
-    m_Translation: {x: 478.5, y: 308.5}
-=======
       width: 1068
       height: 664
     m_Scale: {x: 0.55625, y: 0.55625}
     m_Translation: {x: 534, y: 332}
->>>>>>> HDRP_Workshop
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -844,35 +762,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-      m_SelectedIDs: c0f8ffff
-      m_LastClickedID: -1856
-      m_ExpandedIDs: f0f1ffff48f2ffff26f3ffff1ef5ffff58f5ffffc2f8ffff44faffff286300004a630000466500004c650000
-=======
       m_SelectedIDs: ea7c0000
       m_LastClickedID: 31978
       m_ExpandedIDs: f2e7ffff0cfbffff2a7b0000647d0000
->>>>>>> HDRP_Workshop
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Capsule
-        m_OriginalName: Capsule
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 25806
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-<<<<<<< HEAD
-        m_ClientGUIView: {fileID: 2}
-=======
         m_ClientGUIView: {fileID: 6}
->>>>>>> HDRP_Workshop
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1301,15 +1209,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: -52.44171, y: 0.75, z: 10.185511}
-    speed: 2
-    m_Value: {x: -52.44171, y: 0.75, z: 10.185511}
-=======
     m_Target: {x: -5.991578, y: 9.867628, z: 11.300666}
     speed: 2
     m_Value: {x: -5.991578, y: 9.867628, z: 11.300666}
->>>>>>> HDRP_Workshop
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1355,15 +1257,6 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
-    m_Target: {x: 0.042886727, y: 0.6181508, z: -0.043029163, w: 0.78476065}
-    speed: 2
-    m_Value: {x: 0.042851377, y: 0.61764127, z: -0.042993695, w: 0.7841138}
-  m_Size:
-    m_Target: 5.588311
-    speed: 2
-    m_Value: 5.8516345
-=======
     m_Target: {x: -0.33907232, y: -0.28839952, z: 0.11004928, w: -0.88868266}
     speed: 2
     m_Value: {x: -0.33890483, y: -0.2897305, z: 0.11055711, w: -0.8882438}
@@ -1371,7 +1264,6 @@ MonoBehaviour:
     m_Target: 0.8660254
     speed: 2
     m_Value: 0.8660254
->>>>>>> HDRP_Workshop
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1389,7 +1281,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.0971796, y: -0.6964832, z: 0.10428741, w: -0.704407}
+  m_LastSceneViewRotation: {x: -0.00007089869, y: -1.0001794, z: -0.004191072, w: -0.007109395}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1441,11 +1333,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-    - Assets/Scripts
-=======
     - Assets/Prefabs
->>>>>>> HDRP_Workshop
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1460,15 +1348,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-    m_SelectedIDs: ec620000
-    m_LastClickedID: 25324
-    m_ExpandedIDs: 00000000c262000000ca9a3b
-=======
     m_SelectedIDs: be650000
     m_LastClickedID: 26046
     m_ExpandedIDs: 00000000f07a00005a7f00005c7f00005e7f0000
->>>>>>> HDRP_Workshop
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1496,11 +1378,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000c2620000
-=======
     m_ExpandedIDs: ffffffff00000000f07a00005a7f00005c7f00005e7f000028810000
->>>>>>> HDRP_Workshop
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1527,7 +1405,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
