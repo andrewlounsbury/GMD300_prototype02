@@ -1,36 +1,55 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; 
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CharacterController))]
 public class ThirdPersonController : MonoBehaviour
 {
+    //public movement variables 
     public float MaxMoveSpeed = 5;
     public float MoveAcceleration = 10;
     public float JumpSpeed = 5;
     public float JumpMaxTime = 0.5f;
     public bool canControl = true; 
+
+    //public camera object 
     public Camera PlayerCamera;
 
+    //public block animations/objects/variables 
+    //add block anim here
+    public Slider BlockSlider;
+    public Image BlockFill; 
+    public float BlockStamina, MaxBlockStamina;
+
+    //private attack animations/variables 
     [SerializeField] private SwordAnimation SwordAnimation;
     [SerializeField] private bool Attack1;
     [SerializeField] private bool Attack2;
-    [SerializeField] private bool Attack3; 
-    private float JumpTimer = 0; 
-    private CharacterController characterController;
-    private bool jumpInputPressed = false;
-    private bool isJumping = false; 
-    private Vector2 moveInput = Vector2.zero;
-    private Vector2 currentHorizontalVelocity = Vector2.zero; 
-    private float currentVerticalVelocity = 0;
-
+    [SerializeField] private bool Attack3;
     private float currentAttackCombo = 0;
     private float maxAttackCombo = 3;
 
+    //private objects/variables 
+    private float JumpTimer = 0; 
+    private CharacterController characterController;
+    private bool jumpInputPressed = false;
+    private bool isJumping = false;
+    private bool blockPressed; 
+    private Vector2 moveInput = Vector2.zero;
+    private Vector2 currentHorizontalVelocity = Vector2.zero; 
+    private float currentVerticalVelocity = 0;
+    private bool recharging = false;
+    private Coroutine recharge; 
+
     private void Awake()
     {
+        //calls character controller object on object awake to recieve player inputs
         characterController = GetComponent<CharacterController>();
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     private void Update()
@@ -79,6 +98,32 @@ public class ThirdPersonController : MonoBehaviour
             }
 
             characterController.Move(currentVelocity * Time.deltaTime);
+
+
+            if (blockPressed)
+            {
+                BlockStamina -= Time.deltaTime;
+
+               if (BlockStamina < 0)
+               {
+                 BlockStamina = 0;
+               }
+
+                BlockSlider.value = BlockStamina;
+            }
+
+            if (recharging)
+            {
+                BlockStamina += Time.deltaTime;
+                if (BlockStamina > MaxBlockStamina)
+                {
+                    BlockStamina = MaxBlockStamina;
+                    recharging = false;
+                }
+
+                BlockSlider.value = BlockStamina;
+
+            }
         }
         
     }
@@ -119,29 +164,25 @@ public class ThirdPersonController : MonoBehaviour
 
     public void OnAttack(InputValue value)
     {
-        /*if(value.Get<float>() > 0) 
-        {
-
-            SwordAnimation.AttackAnim1(true);
-            if(Attack1 && value.Get<float>() > 0)
-            {
-                SwordAnimation.AttackAnim2(true);
-                SwordAnimation.AttackAnim1(false);
-
-                if (Attack2 && value.Get<float>() > 0)
-                {
-                    SwordAnimation.AttackAnim3(true);
-                    SwordAnimation.AttackAnim2(false);
-
-                    if (Attack2 && value.Get<float>() > 0)
-                    {
-                        SwordAnimation.AttackAnim3(false);
-                    }
-                }
-            }
-        }*/
-
         SwordAnimation.TriggerAttackCombo();
+    }
+
+    public void OnBlock(InputValue value)
+    {
+        blockPressed = value.isPressed; 
+
+        if (!blockPressed)
+        {
+            StartCoroutine(RechargeStamina());
+        } 
+    }
+
+    private IEnumerator RechargeStamina()
+    {
+        yield return new WaitForSeconds(1f);
+
+        recharging = true;
+        Debug.Log(recharging);
     }
 
 }

@@ -25,7 +25,7 @@ public class PlayerHealthSystem : MonoBehaviour
     private void OnTriggerEnter(Collider DangerCube)
     {
         Health--;
-        Debug.Log(Health);
+        //Debug.Log(Health);
     }
     // Update is called once per frame
     void Update()

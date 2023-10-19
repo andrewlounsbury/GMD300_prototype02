@@ -17,9 +17,19 @@ public class SwordAnimation : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(currentAttackCombo);
+        //Debug.Log(currentAttackCombo);
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("AttackDone"))
+        {
+            currentAttackCombo = 0;
+            animator.SetFloat("AttackCombo", currentAttackCombo);
+        }
+        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("BackToIdle2"))
+        {
+            currentAttackCombo = 0;
+            animator.SetFloat("AttackCombo", currentAttackCombo);
+        }
+        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("BackToIdle3"))
         {
             currentAttackCombo = 0;
             animator.SetFloat("AttackCombo", currentAttackCombo);

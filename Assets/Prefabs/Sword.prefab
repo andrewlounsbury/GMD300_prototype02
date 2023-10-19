@@ -33988,7 +33988,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 501
+  m_VersionIndex: 507
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -68083,7 +68083,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 891
+  m_VersionIndex: 897
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -68979,7 +68979,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 5235
+  m_VersionIndex: 5241
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -69206,6 +69206,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1498209109205328143}
+  - component: {fileID: 173481606997049481}
+  - component: {fileID: 3291518335220599110}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
@@ -69234,6 +69236,39 @@ Transform:
   - {fileID: 7036982327894782063}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &173481606997049481
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6858675765795902243}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: efd80149e0f888646b5387f9f902b4a6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3291518335220599110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6858675765795902243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ffabd48798e0f248855df3f1ca02de0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7250713828994159661
 GameObject:
   m_ObjectHideFlags: 0
@@ -69800,7 +69835,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1078
+  m_VersionIndex: 1084
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -70209,7 +70244,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2358
+  m_VersionIndex: 2364
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []

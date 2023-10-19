@@ -12,7 +12,7 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(int damage = 1)
     {
         EnemHealth -= damage;
-        Debug.Log("EnemyHealth = " + EnemHealth);
+        //Debug.Log("EnemyHealth = " + EnemHealth);
     }
     // Start is called before the first frame update
     void Start()
